@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { links, social } from '../Data';
 import logo from '../../logo.png';
+import './Styles/style.css';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -44,7 +45,9 @@ const Navbar = () => {
             const { id, url, icon } = socialIcon;
             return (
               <li key={id}>
-                <a href={url}>{icon}</a>
+                <a href={url} target="blank">
+                  {icon}
+                </a>
               </li>
             );
           })}

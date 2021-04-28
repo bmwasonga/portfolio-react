@@ -3,7 +3,7 @@ import React from 'react';
 function Profile() {
   return (
     <div>
-      <p>This is the profile page</p>
+      <h1>This is the projecsts page</h1>
     </div>
   );
 }
