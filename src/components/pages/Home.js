@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './Styles/Styles.css';
 function Home() {
   return (
-    <div>
+    <div className="container">
       <h1>This is the Home page</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident ab

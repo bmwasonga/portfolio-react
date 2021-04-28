@@ -10,7 +10,7 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: hsl(205, 89%, 70%);
+  color: hsl(195, 3%, 72%);
   background: transparent;
   border-color: transparent;
   transition: all 0.3s linear;
@@ -33,7 +33,7 @@ nav {
   transition: all 0.3s linear;
 }
 .links a:hover {
-  background: hsl(205, 90%, 88%);
+  background: hsl(195, 3%, 72%);
   color: hsl(0, 0%, 11%);
   padding-left: 1.5rem;
 }
