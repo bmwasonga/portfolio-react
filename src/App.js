@@ -6,6 +6,7 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 import Profile from './components/pages/Profile';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/profile" component={Profile} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

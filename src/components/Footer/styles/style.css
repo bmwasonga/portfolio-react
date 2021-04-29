@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+}
+.footer a {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0.5rem;
+  font-size: 30px;
+  color: hsl(203, 3%, 51%);
+  transition: all 0.3s linear;
+}
+
+.footer a:hover {
+  color: hsl(0, 0%, 11%);
+}
