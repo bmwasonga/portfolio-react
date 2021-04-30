@@ -1,0 +1,11 @@
+.pack-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 60px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+.pack-icons li {
+  cursor: pointer;
+}

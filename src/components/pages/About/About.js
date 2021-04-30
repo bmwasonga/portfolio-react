@@ -1,6 +1,6 @@
 import React from 'react';
-import './Styles/Styles.css';
-import { packs } from '../Data';
+import './styles.css';
+import { packs } from '../../Data';
 
 function About() {
   return (

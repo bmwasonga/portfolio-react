@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import { links, social } from '../Data';
 import logo from '../../logo.png';
 import './Styles/style.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -34,12 +35,13 @@ const Navbar = () => {
               const { id, url, text } = link;
               return (
                 <li key={id}>
-                  <a href={url}>{text}</a>
+                  <Link to={url}>{text}</Link>
                 </li>
               );
             })}
           </ul>
         </div>
+
         <ul className="social-icons">
           {social.map((socialIcon) => {
             const { id, url, icon } = socialIcon;

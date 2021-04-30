@@ -70,15 +70,15 @@ export const packs = [
     icon: <SiJavascript />,
   },
   {
-    id: 3,
+    id: 4,
     icon: <FaReact />,
   },
   {
-    id: 3,
+    id: 5,
     icon: <SiMaterialUi />,
   },
   {
-    id: 3,
+    id: 6,
     icon: <FaNodeJs />,
   },
 ];
