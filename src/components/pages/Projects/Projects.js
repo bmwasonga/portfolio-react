@@ -12,8 +12,9 @@ function Projects() {
           return (
             <li key={id}>
               <a href={url} target="blank">
-                <img src={image} alt={desc} />
-                <span>{text}</span>
+                <img src={image} alt={text} />
+                <h3>{text}</h3>
+                <p>{desc}</p>
               </a>
             </li>
           );
