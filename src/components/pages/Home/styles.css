@@ -1,0 +1,29 @@
+.home-cont {
+  /* Attempt to include a moving background to the photo */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40vh;
+}
+
+.home-cont img {
+  height: inherit;
+  width: inherit;
+}
+
+.home-desc {
+  padding: 40px;
+}
+.home-desc h3 {
+  line-height: 1.5;
+  text-transform: none;
+}
+
+.home-desc span {
+  padding: 20px;
+  font-size: 60px;
+  color: black;
+}

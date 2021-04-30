@@ -1,0 +1,29 @@
+.proj-list {
+  display: grid;
+  grid-gap: 25px;
+  gap: 25px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.proj-list img {
+  display: block;
+  height: 200px;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+  width: 400px;
+  top: 0;
+}
+
+.proj-list img:hover {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+  transform: scale(1.05);
+  border-color: rgba(249, 249, 249, 0.8);
+}
+
+@media (max-width: 768px) {
+  .proj-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
