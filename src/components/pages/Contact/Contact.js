@@ -5,7 +5,14 @@ function Contact() {
   return (
     <div className="container">
       <h1>Get in touch with me</h1>
-      <form className="contact" id="form1" method="POST" data-netlify="true">
+      <form
+        name="contact me"
+        className="contact"
+        id="form1"
+        method="POST"
+        data-netlify="true"
+        onSubmit="submit"
+      >
         <input
           name="name"
           type="text"
@@ -29,7 +36,9 @@ function Contact() {
           placeholder="Comment"
         ></textarea>
 
-        <input type="submit" value="SEND" id="button-blue" />
+        <button type="submit" value="SEND" id="button-blue">
+          SEND
+        </button>
       </form>
     </div>
   );
