@@ -1,0 +1,14 @@
+.prof-btn {
+  padding-top: 40px;
+}
+
+.prof-btn a {
+  text-decoration: none;
+  border: 2px solid #747472;
+  padding: 15px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}

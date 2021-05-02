@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  FaHtml5,
-  FaReact,
-  FaNodeJs,
-} from 'react-icons/fa';
-import { IoLogoCss3 } from 'react-icons/io';
-import { SiJavascript, SiMaterialUi } from 'react-icons/si';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 export const links = [
   {

@@ -8,7 +8,7 @@ function Profile() {
       <div className="prof-btn">
         <a
           href="https://drive.google.com/file/d/1ZPOlhl9NHMBbHD9059X_9Thj-S-c94XQ/view?usp=sharing"
-          download="true"
+          target="blank"
         >
           My cv
         </a>

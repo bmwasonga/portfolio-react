@@ -24,15 +24,15 @@ export const know = [
 
 export const learning = [
   {
-    id: 5,
+    id: 1,
     icon: <SiMaterialUi />,
   },
   {
-    id: 6,
+    id: 2,
     icon: <DiNodejs />,
   },
   {
-    id: 6,
+    id: 3,
     icon: <SiMongodb />,
   },
 ];
