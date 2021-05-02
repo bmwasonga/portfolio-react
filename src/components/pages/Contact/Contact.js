@@ -14,34 +14,28 @@ function Contact() {
         onSubmit="submit"
         data-netlify-honeypot="bot-field"
       >
-        <div hidden>
-          <input name="bot-field" />
-        </div>
-        <input type="hidden" name="form-name" value="portfoliocontact"></input>
+        <input type="hidden" name="form-name" value="portfoliocontact" />
         <input
           name="name"
           type="text"
-          className="validate[required,custom[onlyLetter],length[0,20]] feedback-input"
+          className="feedback-input"
           placeholder="Name"
-          id="name"
         />
 
         <input
           name="email"
           type="text"
-          className="validate[required,custom[email]] feedback-input"
-          id="email"
+          className=" feedback-input"
           placeholder="Email"
         />
 
         <textarea
           name="text"
-          className="validate[required,length[6,300]] feedback-input"
-          id="comment"
+          className="feedback-input"
           placeholder="Comment"
         ></textarea>
 
-        <button type="submit" value="SEND" id="button-blue">
+        <button type="submit" id="button-blue">
           SEND
         </button>
       </form>
