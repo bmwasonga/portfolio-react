@@ -9,12 +9,15 @@ function Contact() {
       <br />
       <form
         name="portfoliocontact"
-        id="form1"
-        method="POST"
+        method="post"
         data-netlify="true"
         onSubmit="submit"
+        data-netlify-honeypot="bot-field"
       >
-        <input type="hidden" name="form-name" value="contact"></input>
+        <div hidden>
+          <input name="bot-field" />
+        </div>
+        <input type="hidden" name="form-name" value="portfoliocontact"></input>
         <input
           name="name"
           type="text"
