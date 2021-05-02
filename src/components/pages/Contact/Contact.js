@@ -1,64 +1,75 @@
 import React from 'react';
-import './styles.css';
 
-function Contact() {
-  return (
-    <div className="contact-form">
-      <h1>Get in touch with me</h1>
-      <br />
-      <br />
-      <form
-        name="contact v2"
-        method="post"
-        data-netlify="true"
-        onSubmit="submit"
-        data-netlify-honeypot="bot-field"
-      >
-        <input type="hidden" name="form-name" value="contact v2" />
+class Contact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: '', email: '', message: '' };
+  }
 
-        <div hidden>
-          <input name="bot-field" />
-        </div>
+  /* Here’s the juicy bit for posting the form submission */
 
-        <div>
+  handleSubmit = (e) => {
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact', ...this.state }),
+    })
+      .then(() => alert('Success!'))
+      .catch((error) => alert(error));
+
+    e.preventDefault();
+  };
+
+  handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
+
+  render() {
+    const { name, email, message } = this.state;
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <p>
           <label>
-            First name
-            <br />
-            <input type="text" name="first-name" />
+            Your Name:{' '}
+            <input
+              type="text"
+              name="name"
+              value={name}
+              onChange={this.handleChange}
+            />
           </label>
-        </div>
-
-        <div>
+        </p>
+        <p>
           <label>
-            Last name
-            <br />
-            <input type="text" name="last-name" />
+            Your Email:{' '}
+            <input
+              type="email"
+              name="email"
+              value={email}
+              onChange={this.handleChange}
+            />
           </label>
-        </div>
-
-        <div>
-          <label htmlFor="email">Email</label>
-          <br />
-          <input id="email" type="email" name="email" />
-        </div>
-
-        <div>
+        </p>
+        <p>
           <label>
-            Any Comments?
-            <br />
-            <textarea name="comments"></textarea>
+            Message:{' '}
+            <textarea
+              name="message"
+              value={message}
+              onChange={this.handleChange}
+            />
           </label>
-        </div>
-
-        <button type="submit">Submit The Results</button>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
       </form>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-    </div>
-  );
+    );
+  }
 }
+
+const encode = (data) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&');
+};
 
 export default Contact;
