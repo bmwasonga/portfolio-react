@@ -8,36 +8,49 @@ function Contact() {
       <br />
       <br />
       <form
-        name="portfoliocontact"
+        name="contact v2"
         method="post"
         data-netlify="true"
         onSubmit="submit"
         data-netlify-honeypot="bot-field"
       >
-        <input type="hidden" name="form-name" value="portfoliocontact" />
-        <input
-          name="name"
-          type="text"
-          className="feedback-input"
-          placeholder="Name"
-        />
+        <input type="hidden" name="form-name" value="contact v2" />
 
-        <input
-          name="email"
-          type="text"
-          className=" feedback-input"
-          placeholder="Email"
-        />
+        <div hidden>
+          <input name="bot-field" />
+        </div>
 
-        <textarea
-          name="text"
-          className="feedback-input"
-          placeholder="Comment"
-        ></textarea>
+        <div>
+          <label>
+            First name
+            <br />
+            <input type="text" name="first-name" />
+          </label>
+        </div>
 
-        <button type="submit" id="button-blue">
-          SEND
-        </button>
+        <div>
+          <label>
+            Last name
+            <br />
+            <input type="text" name="last-name" />
+          </label>
+        </div>
+
+        <div>
+          <label htmlFor="email">Email</label>
+          <br />
+          <input id="email" type="email" name="email" />
+        </div>
+
+        <div>
+          <label>
+            Any Comments?
+            <br />
+            <textarea name="comments"></textarea>
+          </label>
+        </div>
+
+        <button type="submit">Submit The Results</button>
       </form>
       <br />
       <br />
