@@ -1,7 +1,11 @@
+.abt-container {
+  padding: 50px;
+}
+
 .pack-icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-size: 60px;
   margin: 40px auto;
   flex-wrap: wrap;

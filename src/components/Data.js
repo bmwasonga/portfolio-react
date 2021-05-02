@@ -55,30 +55,3 @@ export const social = [
     icon: <FaLinkedin />,
   },
 ];
-
-export const packs = [
-  {
-    id: 1,
-    icon: <FaHtml5 />,
-  },
-  {
-    id: 2,
-    icon: <IoLogoCss3 />,
-  },
-  {
-    id: 3,
-    icon: <SiJavascript />,
-  },
-  {
-    id: 4,
-    icon: <FaReact />,
-  },
-  {
-    id: 5,
-    icon: <SiMaterialUi />,
-  },
-  {
-    id: 6,
-    icon: <FaNodeJs />,
-  },
-];
