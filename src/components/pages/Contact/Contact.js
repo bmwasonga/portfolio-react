@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="container">
       <h1>Get in touch with me</h1>
-      <form className="form" id="form1">
+      <form className="contact" id="form1" method="POST" data-netlify="true">
         <input
           name="name"
           type="text"

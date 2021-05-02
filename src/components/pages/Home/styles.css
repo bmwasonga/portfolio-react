@@ -1,6 +1,6 @@
 .home-cont {
   /* Attempt to include a moving background to the photo */
-  width: 50%;
+  width: 30vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,4 +26,16 @@
   padding: 20px;
   font-size: 60px;
   color: black;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .home-cont {
+    width: 100vw;
+    height: 30vh;
+  }
+
+  .home-cont img {
+    height: 100%;
+    width: 100%;
+  }
 }

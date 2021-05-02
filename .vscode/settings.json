@@ -1,0 +1,6 @@
+{
+  “terminal.external.osxExec”: “iTerm.app”,
+“terminal.integrated.shell.osx”: “/bin/zsh”,
+“terminal.integrated.fontFamily”: “D2Coding”,
+
+}
