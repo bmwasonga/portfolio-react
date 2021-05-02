@@ -3,16 +3,18 @@ import './styles.css';
 
 function Contact() {
   return (
-    <div className="container">
+    <div className="contact-form">
       <h1>Get in touch with me</h1>
+      <br />
+      <br />
       <form
-        name="contact me"
-        className="contact"
+        name="portfoliocontact"
         id="form1"
         method="POST"
         data-netlify="true"
         onSubmit="submit"
       >
+        <input type="hidden" name="form-name" value="contact"></input>
         <input
           name="name"
           type="text"
@@ -40,6 +42,11 @@ function Contact() {
           SEND
         </button>
       </form>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
