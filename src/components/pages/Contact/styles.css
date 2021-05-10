@@ -1,96 +1,13 @@
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
+.contact a {
+  color: hsl(209, 63%, 51%);
+  margin: 0;
+  font-size: 20px;
+}
+h3 > a {
+  text-transform: none;
+  padding: 40px;
 }
 
-.feedback-input {
-  color: #3c3c3c;
-  font-weight: 500;
-  font-size: 18px;
-  border-radius: 8px;
-  line-height: 22px;
-  background-color: #fbfbfb;
-  padding: 13px 13px 13px 54px;
-  margin-bottom: 18px;
-  width: 50%;
-  border: 3px solid rgba(0, 0, 0, 0);
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
-    rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
-.feedback-input:focus {
-  background: #fff;
-  box-shadow: 0;
-  border: 3px solid #727272;
-  color: #020405;
-  outline: none;
-  padding: 13px 13px 13px 54px;
-}
-
-.focused {
-  color: #347285;
-  border: #30aed6 solid 3px;
-}
-
-#name:focus {
-  background-size: 30px 30px;
-  background-position: 8px 5px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-#email {
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-}
-
-#email:focus {
-  color: #020405;
-}
-
-#comment {
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-textarea {
-  width: 100%;
-  height: 150px;
-  line-height: 150%;
-  resize: vertical;
-}
-
-input:hover,
-textarea:hover,
-input:focus,
-textarea:focus {
-  background-color: white;
-}
-
-#button-blue {
-  float: left;
-  width: 50%;
-  border-radius: 6px;
-  cursor: pointer;
-  background-color: #919597;
-  color: white;
-  font-size: 24px;
-  padding: 22px 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  margin-top: 4px;
-  font-weight: 700;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-
-#button-blue:hover {
-  background-color: rgba(0, 0, 0, 0);
-  color: #1d1c1c;
+.contact a:hover {
+  color: hsl(0, 0%, 11%);
 }
