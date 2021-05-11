@@ -4,7 +4,7 @@ export const projList = [
     url: 'https://mystifying-movieapp-20.netlify.app/',
     text: 'Movie-app',
     image: '/images/projects/movie-app.png',
-    desc: 'This is a moveie app that sources data from The movieDb website.',
+    desc: 'This is a movie app that sources data from The movieDb website.',
   },
   {
     id: 2,
