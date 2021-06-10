@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/NavBar/Navbar';
 import Home from './components/pages/Home/Home';
@@ -10,18 +9,11 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </Router>
+      <Navbar />
+      <Home />
+      <About />
+      <Contact />
+      <Projects />
       <Footer />
     </div>
   );
