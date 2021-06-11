@@ -4,22 +4,22 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 export const links = [
   {
     id: 1,
-    url: '/',
+    url: '#',
     text: 'home',
   },
   {
     id: 2,
-    url: '/skills',
+    url: '#skills',
     text: 'skills',
   },
   {
     id: 3,
-    url: '/projects',
+    url: '#projects',
     text: 'projects',
   },
   {
     id: 4,
-    url: '/contact',
+    url: '#contact',
     text: 'contact',
   },
 ];
