@@ -16,8 +16,8 @@ export default function About() {
             </h1>
 
             <p className="text-gray-100 lg:text5xl md:text-4xl sm:text-3xl">
-              I am a passionate Software Developer with experience in building
-              Web applixations with Reactjs and Nodejs. I am also still learning
+              I am a self-taught Software Developer with experience in building
+              Web applications with Reactjs and Nodejs. I am also still learning
               some other cool libraries.
             </p>
             <SocialMedia />

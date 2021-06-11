@@ -36,6 +36,10 @@ module.exports = {
         wave: 'wave 1.5s infinite',
       },
     },
+    boxShadow: {
+      lg: '10px 10px 11px 0px rgba(0,0,0,0.75)',
+      sm: '10px 10px 11px 0px rgba(71,67,71,1)',
+    },
   },
   variants: {
     extend: {},

@@ -60,7 +60,7 @@ export const back = [
     name: 'MongoDb',
   },
   {
-    id: 2,
+    id: 3,
     icon: <SiFirebase />,
     name: 'Firebase',
   },

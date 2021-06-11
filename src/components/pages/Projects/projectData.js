@@ -11,14 +11,14 @@ export const projList = [
     url: 'https://github.com/bmwasonga/disney-plus/',
     text: 'Disney + clone',
     image: '/images/projects/disney.png',
-    desc: 'A working clone of disney+ movie website',
+    desc: 'A working clone of disney+ movie website made with Reactjs and styled components',
   },
   {
     id: 3,
     url: 'https://github.com/bmwasonga/netflix-clone/',
     text: 'Netflix Clone',
     image: '/images/projects/netflix.png',
-    desc: 'Look! this looks just like Netflix',
+    desc: 'A clone of the netflix application made with React and firebase',
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ export const projList = [
     url: 'https://about-ben-accordion.netlify.app/',
     text: 'Accordion',
     image: '/images/projects/accordion.png',
-    desc: 'Here are some random things about me',
+    desc: 'A simple accordion that takes static data to give information about me',
   },
 ];
 /* the Text will contain the name of the project will serve to
