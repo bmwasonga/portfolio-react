@@ -8,7 +8,7 @@ function Projects() {
         I have worked on the following projects:
       </h1>
       <div className="">
-        <div className="flex xl:flex-row lg:flex-row md:flex-row md:flex-wrap">
+        <div className="flex xl:flex-row lg:flex-row md:flex-row md:flex-wrap sm:flex-col flex-wrap m-12 mb-10">
           {projList.map((project) => {
             const { id, url, text, image, desc } = project;
             return (

@@ -11,7 +11,7 @@ function Skills() {
             What I do
           </h1>
         </div>
-        <div className="flex bg-indigo-900 w-100 ml-10 mr-10 lg:flex-row xl:flex-row md:flex-col sm:flex-col items-center justify-center">
+        <div className="flex bg-indigo-900 w-100 ml-10 mr-10 lg:flex-row xl:flex-row md:flex-col sm:flex-col items-center justify-center flex-wrap">
           <div className="flex items-center justify-center bg-indigo-900 xl:w-4/12 lg:w-4/12 md:w-full sm:w-full xl:h-ful md:h-full m-5">
             <img
               className="flex items-center justify-center bg-indigo-900p-10 xl:w-2/3 lg:w-2/3 md:w-2/3 sm:w-full xl:h-4/5 lg:h-4/5 "
