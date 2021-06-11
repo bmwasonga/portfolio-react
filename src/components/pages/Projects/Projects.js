@@ -3,12 +3,12 @@ import { projList } from './projectData';
 
 function Projects() {
   return (
-    <div className="bg-indigo-900 max-w-full h-full pt-10 pb-20">
+    <div className="bg-indigo-900 w-full h-full pt-10 pb-20">
       <h1 className="text-gray-100 font-bold xl:text-6xl md:text-6xl sm:text-5xl text-center">
         I have worked on the following projects:
       </h1>
       <div className="">
-        <div className="grid grid-flow-col xl:grid-cols-3 xl:grid-rows-2 lg:grid-cols-3 lg:grid-rows-2 gap-10 md:grid-cols-2 md:grid-rows-3  sm:grid-cols-1 sm:grid-rows-6 m-10">
+        <div className="flex xl:flex-row lg:flex-row md:flex-row md:flex-wrap">
           {projList.map((project) => {
             const { id, url, text, image, desc } = project;
             return (
@@ -16,9 +16,13 @@ function Projects() {
                 key={id}
                 href={url}
                 target="blank"
-                className="shadow-lg p-5 hover:shadow-sm hover:transform hover:scale-50"
+                className="shadow-lg p-5 hover:shadow-sm hover:transform  xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-full"
               >
-                <img src={image} alt={text} className="" />
+                <img
+                  src={image}
+                  alt={text}
+                  className="xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-full"
+                />
                 <h3 className="text-gray-100 xl:text-4xl md:text-4xl sm:text-3xl text-center hover:text-gray-800">
                   {text}
                 </h3>

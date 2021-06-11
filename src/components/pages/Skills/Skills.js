@@ -28,7 +28,7 @@ function Skills() {
               Front-end:
             </h3>
 
-            <ul className="flex justify-center content-center">
+            <ul className="flex flex-wrap justify-center content-center">
               {front.map((packIcon) => {
                 const { id, icon, name } = packIcon;
                 return (
