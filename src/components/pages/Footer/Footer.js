@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="bg-indigo-900 ">
       <div className="flex flex-row flex-wrap lg:flex-row xl:flex-row md:flex-col sm:flex-col items-center justify-center ">
-        <div className="pl-20 w-2/3 sm:w-full sm:pl-10">
+        <div className="xl:pl-20 lg:pl-20 md:pl-10 w-2/3 sm:w-full ">
           <h1 className="text-gray-100 lg:text3xl md:text-2xl sm:text-2xl mt-5 mb-5">
             Reach out to me
           </h1>
