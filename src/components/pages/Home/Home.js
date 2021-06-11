@@ -8,8 +8,8 @@ export default function About() {
     <div className="bg-indigo-900 flex flex-row justify-center bg-blue- max-w-full h-screen">
       <div className="flex flex-row  bg-indigo-900 w-10/12 h-4/5 mt-16  items-center justify-center">
         <div className="flex lg:flex-row xl:flex-row md:flex-col sm:flex-col items-center justify-center">
-          <div className=" bg-indigo-900 xl:w-8/12 lg:w-8/12 md:w-full sm:w-full xl:m-5 md:m-5">
-            <h1 className=" text-gray-100 xl:text-6xl md:text-6xl sm:text-5xl  mb-8">
+          <div className=" bg-indigo-900 xl:w-8/12 lg:w-8/12 md:w-full sm:w-full xl:m-5 md:m-5 md:mt-24 sm:mt-24">
+            <h1 className=" text-gray-100 font-bold xl:text-6xl md:text-6xl sm:text-5xl  mb-8">
               {' '}
               Hi there, I am Ben{' '}
               <span className="animate-wave inline-block">{emoji('👋')}</span>

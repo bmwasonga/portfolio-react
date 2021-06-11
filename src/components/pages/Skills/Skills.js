@@ -7,7 +7,7 @@ function Skills() {
     <div className="bg-indigo-900 max-w-full h-full">
       <div className="">
         <div className="flex content-center justify-center">
-          <h1 className="flex content-center justify-center text-gray-100 xl:text-6xl md:text-6xl sm:text-5xl  mb-8">
+          <h1 className="flex content-center justify-center font-bold text-gray-100 xl:text-6xl md:text-6xl sm:text-5xl  mb-8">
             What I do
           </h1>
         </div>

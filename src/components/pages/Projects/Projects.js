@@ -4,7 +4,7 @@ import { projList } from './projectData';
 function Projects() {
   return (
     <div className="bg-indigo-900 max-w-full h-full pt-10 pb-20">
-      <h1 className="text-gray-100 xl:text-6xl md:text-6xl sm:text-5xl text-center">
+      <h1 className="text-gray-100 font-bold xl:text-6xl md:text-6xl sm:text-5xl text-center">
         I have worked on the following projects:
       </h1>
       <div className="">
