@@ -3,7 +3,7 @@ import { projList } from './projectData';
 
 function Projects() {
   return (
-    <div className="container">
+    <div className="max-w-full h-screen">
       <h1>I have worked on the following projects:</h1>
       <div className="proj-list">
         {projList.map((project) => {

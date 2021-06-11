@@ -1,19 +1,16 @@
 import React from 'react';
 import './styles.css';
-import { know, learning } from './aboutData';
+import { front, back } from './skilldata';
 
-function About() {
+function Skills() {
   return (
-    <div className="abt-container">
-      <h2>about me</h2>
+    <div className="bg-indigo-900 max-w-full h-screen">
+      <h2>What I do</h2>
 
-      <p>
-        I am based in Nairobi Kenya and I have sourced all my knowledge from the
-        internet
-      </p>
+      <p>I am currently learning and exploring the following:</p>
       <h2>Here's what I know:</h2>
       <ul className="pack-icons">
-        {know.map((packIcon) => {
+        {front.map((packIcon) => {
           const { id, icon } = packIcon;
           return <li key={id}>{icon}</li>;
         })}
@@ -21,7 +18,7 @@ function About() {
 
       <h2>Here's what I am learning:</h2>
       <ul className="pack-icons">
-        {learning.map((packIcon) => {
+        {back.map((packIcon) => {
           const { id, icon } = packIcon;
           return <li key={id}>{icon}</li>;
         })}
@@ -34,4 +31,4 @@ function About() {
   );
 }
 
-export default About;
+export default Skills;

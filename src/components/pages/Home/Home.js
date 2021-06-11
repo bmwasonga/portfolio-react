@@ -1,29 +1,31 @@
 import React from 'react';
 import emoji from 'react-easy-emoji';
 import man from '../../assets/manOnTable1.svg';
+import SocialMedia from '../../SocialMedia';
 
 export default function About() {
   return (
-    <div className="flex flex-row justify-center bg-blue-500 max-w-full h-screen">
-      <div className="bg-red-400 w-4/5 h-4/5 p-5 m-0 mt-16 ">
-        <div className="flex flex-row md:flex-col sm:flex-col">
-          <div className="bg-gray-100 w-2/4 m-5">
-            <h1 className="md:text-6xl mb-8">
+    <div className="bg-indigo-900 flex flex-row justify-center bg-blue- max-w-full h-screen">
+      <div className="flex flex-row  bg-indigo-900 w-10/12 h-4/5 mt-16  items-center justify-center">
+        <div className="flex lg:flex-row xl:flex-row md:flex-col sm:flex-col items-center justify-center">
+          <div className=" bg-indigo-900 xl:w-8/12 lg:w-8/12 md:w-full sm:w-full xl:m-5 md:m-5">
+            <h1 className=" text-gray-100 xl:text-6xl md:text-6xl sm:text-5xl  mb-8">
               {' '}
               Hi there, I am Ben{' '}
               <span className="animate-wave inline-block">{emoji('👋')}</span>
             </h1>
 
-            <p className="md:text-4xl">
+            <p className="text-gray-100 lg:text5xl md:text-4xl sm:text-3xl">
               I am a passionate Software Developer with experience in building
               Web applixations with Reactjs and Nodejs. I am also still learning
               some other cool libraries.
             </p>
+            <SocialMedia />
           </div>
 
-          <div className="w-2/4 bg-gray-400 m-10 flex justify-center">
+          <div className="flex items-center justify-center bg-indigo-900 xl:w-4/12 lg:w-4/12 md:w-full sm:w-full xl:h-ful md:h-full">
             <img
-              className="h-2/3 mx-auto "
+              className="bg-indigo-900p-10 xl:w-2/3 lg:w-2/3 md:w-2/3 sm:w-full xl:h-4/5 lg:h-4/5 "
               src={man}
               alt="man sitting on a table"
             />
