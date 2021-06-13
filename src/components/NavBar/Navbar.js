@@ -12,7 +12,9 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img className=" " src={logo} alt="wasonga" />
+                <h1 className="text-gray-300 capitalize font-extrabold">
+                  Ben Wasonga
+                </h1>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
