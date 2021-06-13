@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
-import logo from '../../logo.png';
+
 import { links } from '../Data';
 
 export default function Navbar() {
