@@ -21,7 +21,7 @@ function Projects() {
                 <img
                   src={image}
                   alt={text}
-                  className="xl:w-full lg:w-full md:w-1/2 sm:w-full"
+                  className="xl:w-full lg:w-full md:w-full sm:w-full"
                 />
                 <h3 className="text-gray-100 xl:text-4xl md:text-4xl sm:text-3xl text-center hover:text-gray-800 p-5">
                   {text}
