@@ -7,6 +7,7 @@ import {
   SiMongodb,
   SiTailwindcss,
   SiFirebase,
+  SiTypescript,
 } from 'react-icons/si';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 
@@ -63,6 +64,11 @@ export const back = [
     id: 3,
     icon: <SiFirebase />,
     name: 'Firebase',
+  },
+  {
+    id: 3,
+    icon: <SiTypescript />,
+    name: 'Typescript',
   },
 ];
 /*
