@@ -25,7 +25,7 @@ const greeting = {
 const socialMediaLinks = {
   github: 'https://github.com/bmwasonga',
   linkedin: 'https://www.linkedin.com/in/benwasonga/',
-  gmail: 'saadpasta70@gmail.com',
+  gmail: 'bmwasonga@gmail.com',
   stackoverflow: 'https://stackoverflow.com/users/14143665/wasonga',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
@@ -173,7 +173,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -282,13 +282,13 @@ const blogSection = {
         'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
     },
     {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
+      url: '',
       title: 'Why REACT is The Best?',
       description:
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -303,8 +303,8 @@ const talkSection = {
     {
       title: 'Build Actions For Google Assistant',
       subtitle: 'Codelab at GDG DevFest Karachi 2019',
-      slides_url: 'https://bit.ly/saadpasta-slides',
-      event_url: 'https://www.facebook.com/events/2339906106275053/',
+      slides_url: '',
+      event_url: '',
     },
   ],
   display: false, // Set false to hide this section, defaults to true
@@ -317,9 +317,7 @@ const podcastSection = {
   subtitle: 'I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY',
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
-  ],
+  podcast: [''],
   display: false, // Set false to hide this section, defaults to true
 };
 
