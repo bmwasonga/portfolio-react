@@ -141,29 +141,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
+      role: 'Frontend Developer',
+      company: 'Ficlin',
       companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      date: 'May 2020 – August 2021',
+      desc: 'Startup Idea',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Building and implementing Ideas on the Nextjs application',
+        'Implementing wireframes into responsive web-pages',
+        'testing functionality of the web-app',
+        'Appropriately styling tthe web-app',
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
+      role: 'Front-End Developer and contributor',
+      company: 'RDK',
       companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    },
-    {
-      role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      date: 'May 2020 – present',
+      desc: 'Contributor,volunteer and Mentor at React Developers Kenya.',
     },
   ],
 };
@@ -179,34 +174,69 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  title: ' Projects',
+  subtitle: 'I have and I am still building the following',
   projects: [
     {
       image: require('./assets/images/saayaHealthLogo.webp'),
-      projectName: 'Saayahealth',
-      projectDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      projectName: 'Movie World',
+      projectDesc:
+        'A project that utilises the movieDB api  to update on movies',
       footerLink: [
         {
           name: 'Visit Website',
-          url: 'http://saayahealth.com/',
+          url: 'https://mystifying-movieapp-20.netlify.app/',
         },
         //  you can add extra buttons here.
       ],
     },
     {
       image: require('./assets/images/nextuLogo.webp'),
-      projectName: 'Nextu',
-      projectDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      projectName: 'Socks World',
+      projectDesc:
+        'An E-commerce site built with react and MongoDB. It utilises Stripe as a payment method',
       footerLink: [
         {
           name: 'Visit Website',
-          url: 'http://nextu.se/',
+          url: 'https://socks-globe.herokuapp.com/',
+        },
+      ],
+    },
+    {
+      image: require('./assets/images/nextuLogo.webp'),
+      projectName: 'Disney plus clone',
+      projectDesc: 'This is a working clone of disney plus',
+      footerLink: [
+        {
+          name: 'view  the code',
+          url: 'https://github.com/bmwasonga/disney-plus/',
+        },
+      ],
+    },
+    {
+      image: require('./assets/images/nextuLogo.webp'),
+      projectName: 'Netflix clone',
+      projectDesc: 'This is a working clone of disney plus',
+      footerLink: [
+        {
+          name: 'view  the code',
+          url: 'https://github.com/bmwasonga/netflix-clone/',
+        },
+      ],
+    },
+    {
+      image: require('./assets/images/nextuLogo.webp'),
+      projectName: 'to-do-list',
+      projectDesc: 'This is a simple to do list application',
+      footerLink: [
+        {
+          name: 'Visit the website',
+          url: 'https://wasongatodo.netlify.app/',
         },
       ],
     },
   ],
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -246,7 +276,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'View Google Assistant Action',
-          url: 'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+          url: '',
         },
       ],
     },
@@ -259,7 +289,7 @@ const achievementSection = {
         { name: 'Certification', url: '' },
         {
           name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
+          url: '/',
         },
       ],
     },
