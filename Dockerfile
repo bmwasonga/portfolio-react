@@ -8,16 +8,16 @@ WORKDIR /app
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
+# where available (yarn@5+)
 COPY package.json ./
 
 RUN apk add --no-cache git
 
 # Install any needed packages
-RUN npm install
+RUN yarn install
 
-# Audit fix npm packages
-RUN npm audit fix
+# Audit fix yarn packages
+RUN yarn audit fix
 
 # Bundle app source
 COPY . /app
@@ -26,4 +26,4 @@ COPY . /app
 EXPOSE 3000
 
 # Run app.js when the container launches
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
