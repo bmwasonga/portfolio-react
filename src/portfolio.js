@@ -99,7 +99,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: 'CodeAcademy',
-      logo: require('./assets/images/code.png'),
+      logo: require('./assets/images/code.png').default,
       subHeader: 'Front-End Engineer Careep path',
       duration: 'August 2020 - December 2020',
       desc: 'Learning to build a frontend app with React.',
@@ -143,7 +143,7 @@ const workExperiences = {
     {
       role: 'Frontend Developer',
       company: 'Ficlin',
-      companylogo: require('./assets/images/facebookLogo.png'),
+      companylogo: require('./assets/images/facebookLogo.png').default,
       date: 'May 2020 – August 2021',
       desc: 'Startup Idea',
       descBullets: [
@@ -156,7 +156,7 @@ const workExperiences = {
     {
       role: 'Front-End Developer and contributor',
       company: 'RDK',
-      companylogo: require('./assets/images/quoraLogo.png'),
+      companylogo: require('./assets/images/quoraLogo.png').default,
       date: 'May 2020 – present',
       desc: 'Contributor,volunteer and Mentor at React Developers Kenya.',
     },
@@ -178,7 +178,7 @@ const bigProjects = {
   subtitle: 'I have and I am still building the following',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
+      image: require('./assets/images/movie-app.png').default,
       projectName: 'Movie World',
       projectDesc:
         'A project that utilises the movieDB api  to update on movies',
@@ -191,7 +191,7 @@ const bigProjects = {
       ],
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
+      image: require('./assets/images/socks.png').default,
       projectName: 'Socks World',
       projectDesc:
         'An E-commerce site built with react and MongoDB. It utilises Stripe as a payment method',
@@ -203,7 +203,7 @@ const bigProjects = {
       ],
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
+      image: require('./assets/images/disney.png').default,
       projectName: 'Disney plus clone',
       projectDesc: 'This is a working clone of disney plus',
       footerLink: [
@@ -214,7 +214,7 @@ const bigProjects = {
       ],
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
+      image: require('./assets/images/netflix.png').default,
       projectName: 'Netflix clone',
       projectDesc: 'This is a working clone of disney plus',
       footerLink: [
@@ -225,7 +225,7 @@ const bigProjects = {
       ],
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
+      image: require('./assets/images/to-do.png').default,
       projectName: 'to-do-list',
       projectDesc: 'This is a simple to do list application',
       footerLink: [
