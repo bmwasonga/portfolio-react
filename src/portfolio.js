@@ -156,7 +156,7 @@ const workExperiences = {
     {
       role: 'Front-End Developer and contributor',
       company: 'RDK',
-      companylogo: require('./assets/images/quoraLogo.png').default,
+      companylogo: require('./assets/images/reactdevske.svg').default,
       date: 'May 2020 – present',
       desc: 'Contributor,volunteer and Mentor at React Developers Kenya.',
     },
