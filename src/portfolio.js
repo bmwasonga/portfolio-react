@@ -16,7 +16,8 @@ const greeting = {
   subTitle: emoji(
     'A passionate Frontend Developer 🚀 with experience building applications for the web and mobile phones with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.'
   ),
-  resumeLink: '#',
+  resumeLink:
+    'https://drive.google.com/file/d/18Q1z6g832fjmNZ5p0VeNJ9tssRrJGFdN/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
