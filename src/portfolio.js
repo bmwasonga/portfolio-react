@@ -145,7 +145,7 @@ const workExperiences = {
       role: 'Frontend Developer',
       company: 'Ficlin',
       companylogo: require('./assets/images/facebookLogo.png').default,
-      date: 'May 2020 – August 2021',
+      date: 'May 2021 – August 2021',
       desc: 'Startup Idea',
       descBullets: [
         'Building and implementing Ideas on the Nextjs application',
@@ -158,7 +158,7 @@ const workExperiences = {
       role: 'Front-End Developer and contributor',
       company: 'RDK',
       companylogo: require('./assets/images/reactdevske.svg').default,
-      date: 'May 2020 – present',
+      date: 'May 2021 – present',
       desc: 'Contributor,volunteer and Mentor at React Developers Kenya.',
     },
   ],
